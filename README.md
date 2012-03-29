@@ -1,10 +1,15 @@
-Firefox 3.6 Start Page
-======================
-This is a very simple static website generator for the Firefox 3.6 start page.
+Statik
+======
+This is a very simple static website generator I originally built for the
+Firefox 3.6 start page.
 
 Based on [nocturnal](https://github.com/mozilla/nocturnal/), it takes a single
-jinja2 template, throws in some translations from .lang files,, and generates a
+jinja2 template, throws in some translations from .lang files, and generates a
 bunch of static, localized output files.
+
+Big thanks to Matt MacPherson and James Long for doing much of the heavy
+lifting, I basically just glued this together. Open Source is a wonderful
+thing.
 
 Usage
 -----
